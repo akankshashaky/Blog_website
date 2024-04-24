@@ -1,0 +1,45 @@
+/* @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200'); */
+/*  {
+  margin: 3px;
+  padding: 0;
+  box-sizing: border-box; /* box-model
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+       background-image: url('img/1889167.jpg'); 
+background-size:cover;
+  -webkit-animation: slidein 100s;
+  animation: slidein 5s;
+
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;              
+}
+
+@-webkit-keyframes slidein {
+from {background-position: top; background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+}
+@keyframes slidein {
+from {background-position: top;background-size:3000px; }
+to {background-position: -100px 0px;background-size:1500px;}
+
+} */
+
+.card-img-top {
+  padding: 15px;
+  height: 300px;
+  width: auto;
+  border: #ebf2ff;
+}
+
+.place__holder__image {
+  width: 100%;
+}
+

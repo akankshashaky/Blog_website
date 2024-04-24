@@ -1,0 +1,190 @@
+nav {
+    color: black;
+    /* background-color:; */
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    margin-right: 20px;
+    width: 220vh;
+    justify-content: space-evenly;
+    font-size: 25px;
+
+    /* margin-bottom: 15px; */
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+.navigation-links {
+    list-style-type:none;
+    margin-left: 745px;
+    margin-right: 15px;
+    display: flex;
+}
+
+.navigation-links li {
+    margin-right: 60px;
+    transform: perspective(1000px) rotateY(0deg); /* Initial 3D transform */
+    transition: transform 0.3s ease; /* Smooth transition for transform */
+}
+
+.navigation-links li:last-child {
+    margin-right: 0;
+}
+
+.navigation-links li a {
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    padding-bottom: 5px;
+    transition: padding-bottom 0.3s ease, color 0.3s ease;
+}
+
+.navigation-links li a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #30b7d2, #aa0c88); /* Gradient color */
+    background-size: 0% 2px; /* Initially invisible */
+    transition: background-size 0.3s ease;
+}
+
+.navigation-links li a:hover::after {
+    background-size: 100% 2px; /* Fully visible on hover */
+}
+
+.navigation-links li a:hover {
+    color: #30b7d2; /* Change text color on hover */
+}
+
+.login button {
+    background-color: rgb(233, 219, 219);
+    border-radius: 10px;
+    color:black;
+    font-weight: bold;
+    padding: 10px;
+    width: 70px;
+    cursor: pointer;
+}
+
+.login button:hover {
+     font-weight: bold;
+    font-size: 17px;
+    width: 110%;
+}
+
+/* 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 */
+
+*{
+    background-image: url('img/back.png');
+}
+
+body {
+    background-size: 1500px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    border: 2px solid red;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo-container {
+    padding: 1px;
+    background-color: #610746;
+}
+
+.logo-container img {
+    display: block; 
+    max-width:50px;
+    height: 2pxs;
+}
+
+.left-corner h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.right-corner a {
+    color: #fff;
+    text-decoration: none;
+    padding-right: 25px;
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    display: inline-block;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.right-corner a:hover {
+    text-decoration: underline;
+}
+
+.create-blog-btn {
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 350px;
+    margin-left: 620px;
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.create-blog-btn:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    padding: 20px;
+    text-align: right;
+    padding-top: 100px;
+    padding-bottom: 6px;
+    padding-right: 50px;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icon {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icon img {
+    width: 40px;
+    height: 40px;
+}
+
+.facebook img {
+    background-color: #3b5998;
+}
+
+.twitter img {
+    background-color: #1da1f2;
+}
+
+.instagram img {
+    background-color: #c32aa3;
+}
+
+.navigation-links li:hover {
+    transform: perspective(1000px) rotateY(45deg); /* 3D transform on hover */
+}

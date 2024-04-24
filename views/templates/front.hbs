@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/style1.css">
+    <style>
+       * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Body Styles */
+    body {
+        
+    }
+</style>
+</head>
+<body>
+    
+    <header>
+
+        <nav>
+            <div class="logo">
+                <img src="../img/logo.jpg" alt="Logo">
+            </div>
+            <ul class="navigation-links">
+                <li><a href="./main">Home</a></li>
+                {{!-- <li><a href="./about">About</a></li> --}}
+                <li><a href="./blog">Blogging</a></li>
+                <li><a href="./team">Team</a></li>
+            </ul>
+            <div class="login">
+                <button><a href="login">Logout</a></button>
+            </div>
+        </nav>
+    </header>
+    <p class="heading">MY BLOG</p>
+    <p style="margin-top: 20px; margin-bottom 15px;">Welcome to the blog of <span class="author">Blog Website</span></p>
+    <div class="container">
+
+        <div class="half">
+
+            <div class="grid-item image-card" id="box1">
+                <img  src="img/woods.jpg" width="100%" height="40%" alt="">
+                <div class="image-card-content">
+                    <p style="margin-top: 20px;" class="image-card-heading">Create A Blog</p>
+                    <p style="margin-top: 20px; font-size:18px;">Title description,<span class="date"> April 19, 2024</span> </p>
+                    <p style="margin-top: 20px; font-size:16px;" class="description">Share your story with the world. Stand out with a professionally-designed
+                        template that can be customized to fit your brand. Promote your blog and build your online
+                        presence with Squarespace's built-in suite of marketing tools-
+                        Blog Application is an application where user can add a new blog, edit it,
+                        delete it as well as view other blogs and make changes in them.
+                        The Home module serves as the front landing page of the application, providing users with an
+                        overview of our website where user can Sign/Login for go throught the Blogging Website.
+                    </p>
+                    <button style="margin-top: 20px;">READ MORE</button>
+                    <footer>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/" class="social-icon facebook"><img src="../img/th.jpeg" alt="Facebook"></a>
+            <a href="https://www.twitter.com/" class="social-icon twitter"><img src="../img/th (2).jpeg" alt="Twitter"></a>
+            <a href="https://www.instagram.com/" class="social-icon instagram"><img src="../img/th (1).jpeg" alt="Instagram"></a>
+        </div>
+    </footer>
+                </div>
+            </div>
+        </div>
+
+    {{!-- <button   style="margin-top: 20px;" class="create-blog-btn">Create New Blog</button> --}}
+
+    {{!-- <footer>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/" class="social-icon facebook"><img src="../img/th.jpeg" alt="Facebook"></a>
+            <a href="https://www.twitter.com/" class="social-icon twitter"><img src="../img/th (2).jpeg" alt="Twitter"></a>
+            <a href="https://www.instagram.com/" class="social-icon instagram"><img src="../img/th (1).jpeg" alt="Instagram"></a>
+        </div>
+    </footer> --}}
+
+</body>
+</html>
